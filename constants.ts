@@ -5,7 +5,7 @@ export const USER_INFO = {
   family_name: "Vo (버)",
   name: "Thu Vo",
   nationality: "Vietnamese 🇻🇳",
-  bio: "Full-stack engineer focused on integrating AI and building user-centered applications.",
+  bio: "Full-stack engineer have an interest in integrating AI and building user-centered applications.",
   location: "Daejeon, Korea",
   email: "thu.vohoanganh96@gmail.com",
   phone: "010 6579 2603"
@@ -77,7 +77,7 @@ export const EXPERIENCE: Experience[] = [
   {
     id: 0,
     role: "Master student in Human-computer interaction",
-    company: "KAIST",
+    company: "ICLab, KAIST",
     duration: "Feb 2024 - present",
     description: "Research on the design and application of an AI-powered system in the mental health domain",
     projects: [

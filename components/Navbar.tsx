@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
             </div>
           </div>
           
-          <div className="hidden md:block">
+          {/* <div className="hidden md:block">
             <a 
                 href="/resume.pdf" 
                 target="_blank" 
@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
             >
               Download CV
             </a>
-          </div>
+          </div> */}
 
           <div className="-mr-2 flex md:hidden">
             <button
@@ -78,14 +78,14 @@ const Navbar: React.FC = () => {
                 {link.name}
               </a>
             ))}
-            <a 
+            {/* <a 
                 href="/resume.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
                 Download CV
-            </a>
+            </a> */}
           </div>
         </div>
       )}
