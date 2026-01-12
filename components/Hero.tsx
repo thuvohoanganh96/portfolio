@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
           </span>
         </h1>
         
-        <p className="mt-4 max-w-2xl text-xl text-github-secondary mb-10">
+        <p className="mt-4 max-w-lg text-xl text-github-secondary mb-10">
           {USER_INFO.bio}
         </p>
         
@@ -55,6 +55,7 @@ const Hero: React.FC = () => {
                     <span className="text-[#ff7b72]">const</span> <span className="text-[#d2a8ff]">software_engineer</span> = <span className="text-[#ff7b72]">{`{`}</span>{'\n'}
                     {'  '}first name: <span className="text-[#a5d6ff]">"{USER_INFO.first_name}"</span>,{'\n'}
                     {'  '}family name: <span className="text-[#a5d6ff]">"{USER_INFO.family_name}"</span>,{'\n'}
+                    {'  '}nationality: <span className="text-[#a5d6ff]">"{USER_INFO.nationality}"</span>,{'\n'}
                     {'  '}location: <span className="text-[#a5d6ff]">"{USER_INFO.location}"</span>,{'\n'}
                     {'  '}email: <span className="text-[#a5d6ff]">"{USER_INFO.email}"</span>,{'\n'}
                     <span className="text-[#ff7b72]">{`}`}</span>;

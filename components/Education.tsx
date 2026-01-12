@@ -13,7 +13,7 @@ const Education: React.FC = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
             <h2 className="text-3xl font-bold text-white mb-2 flex items-center gap-3">
-              <GraduationCap className="text-purple-400" />
+              <GraduationCap className="text-blue-400" />
               Education
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full"></div>

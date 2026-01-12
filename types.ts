@@ -11,7 +11,7 @@ export interface Project {
 
 export interface ExperienceProject {
   name: string;
-  description: string;
+  description: string[];
   role: string;
   technologies: string[];
   link?: string;
@@ -28,7 +28,7 @@ export interface Experience {
 
 export interface Skill {
   name: string;
-  category: 'Frontend' | 'Backend' | 'Tools';
+  category: string;
 }
 
 export interface ChatMessage {

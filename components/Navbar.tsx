@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
                 <img 
                     src="https://avatars.githubusercontent.com/u/1?v=4" 
                     alt="Profile" 
-                    className="w-8 h-8 rounded-full border border-github-border cursor-pointer transition-transform duration-300 ease-out group-hover:scale-[3.5] group-hover:translate-x-3 group-hover:translate-y-3 group-hover:shadow-2xl" 
+                    className="w-8 h-8 rounded-full border border-github-border cursor-pointer transition-transform duration-300 ease-out group-hover:scale-[3.5] group-hover:translate-x-6 group-hover:translate-y-8 group-hover:shadow-2xl" 
                 />
             </div>
             

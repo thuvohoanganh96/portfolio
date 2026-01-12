@@ -17,7 +17,7 @@ const App: React.FC = () => {
         <Education />
         <Experience />
         <Skills />
-        <Projects />
+        {/* <Projects /> */}
       </main>
     </div>
   );

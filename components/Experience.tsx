@@ -5,13 +5,13 @@ import { Briefcase, ExternalLink, Code2 } from 'lucide-react';
 const Experience: React.FC = () => {
   return (
     <section id="experience" className="py-24 bg-gradient-to-b from-github-bg to-[#0a0d4a]/30">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12 flex flex-col items-center md:items-start">
             <h2 className="text-3xl font-bold text-white mb-4 flex items-center gap-3">
                 <Briefcase className="text-blue-400" />
                 Experience
             </h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
+            <div className="w-20 h-1 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full"></div>
         </div>
         
         <div className="relative border-l-2 border-github-border ml-4 md:ml-8 space-y-16">
@@ -58,9 +58,13 @@ const Experience: React.FC = () => {
                                     <div className="text-xs font-mono text-blue-300 mb-3 uppercase tracking-wider">
                                         {project.role}
                                     </div>
-                                    <p className="text-sm text-gray-400 mb-4">
-                                        {project.description}
-                                    </p>
+                                    <div className="text-sm text-gray-400 mb-4">
+                                        {project.description.map((line, index) => (
+                                            <p key={index} className="mb-2">
+                                                {line}
+                                            </p>
+                                        ))}
+                                    </div>
                                     <div className="flex flex-wrap gap-2">
                                         {project.technologies.map((tech, tIndex) => (
                                             <span key={tIndex} className="text-[10px] px-2 py-0.5 bg-blue-500/10 border border-blue-500/20 text-blue-200 rounded">

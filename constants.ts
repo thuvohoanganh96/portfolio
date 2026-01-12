@@ -4,7 +4,8 @@ export const USER_INFO = {
   first_name: "Thu (트)",
   family_name: "Vo (버)",
   name: "Thu Vo",
-  bio: "Full Stack Engineer passionate about AI integration, and building applications.",
+  nationality: "Vietnamese 🇻🇳",
+  bio: "Full-stack engineer focused on integrating AI and building user-centered applications.",
   location: "Daejeon, Korea",
   email: "thu.vohoanganh96@gmail.com",
   phone: "010 6579 2603"
@@ -81,16 +82,17 @@ export const EXPERIENCE: Experience[] = [
     description: "Research on the design and application of an AI-powered system in the mental health domain",
     projects: [
       {
-        name: "Memory-Augmented AI Journaling Mobile Application",
-        role: "HCI Reseacher, Full stack Developer",
-        description: 'Developed a full-stack mobile application designed to support mental well-being through personalized emotional journaling. The system features a "reflective emotional memory" architecture that encodes user diary entries into contextual memory units to help users interpret, revisit, and make sense of their emotions over time. The application was deployed for a 4-week in-the-wild user study with 50 participants.',
-        technologies: ["React Native", "Node.js","REST API", "MongoDB", "OpenAI API"],
+        name: "AI Interviewer for Psychiatric History Taking (paper under review)",
+        role: "HCI Researcher, Full-stack Developer",
+        description: ["In real clinical practice, interviews are constrained by limited time and the unpredictability of patient responses, making it difficult to secure essential information efficiently. We design a flexible psychiatric interviewer that dynamically adapts question flow and prioritizes clinically essential information within time constraints, with a clinical dashboard for efficient review.",
+        "The clinical agent follows a structured pipeline: evaluating patient responses, predicting potential mental health conditions, prioritizing subsequent questions, and adapting the interview flow in real time. The system was evaluated through a user study involving 20 clinicians, demonstrating its effectiveness in efficiently collecting critical psychiatric information."],
+        technologies: ["React", "Flask", "RESTful API", "MongoDB", "OpenAI API", "LangChain", "LangSmith"]
       },
       {
-        name: "AI Interviewer for Psychiatric History Taking",
-        role: "HCI Researcher, Full stack Developer",
-        description: "In real clinical practice, interviews are constrained by limited time and the unpredictability of patient responses, making it difficult to secure essential information efficiently. We design a flexible psychiatric interviewer that dynamically adapts question flow and prioritizes clinically essential information within time constraints, with a clinical dashboard for efficient review. ",
-        technologies: ["React Native", "Python", "Flask", "MongoDB", "OpenAI API"]
+        name: "Memory-Augmented AI Journaling Mobile Application",
+        role: "HCI Reseacher, Full-stack Developer",
+        description: ['Developed a full-stack mobile application designed to support mental well-being through personalized emotional journaling. The system features a "reflective emotional memory" architecture that encodes user diary entries into contextual memory units and AI companion to help users interpret, revisit, and make sense of their emotions over time. The application was deployed for a 4-week in-the-wild user study with 50 participants.'],
+        technologies: ["React Native", "Node.js", "RESTful API", "MongoDB", "OpenAI API"],
       }
     ]
   },
@@ -104,32 +106,32 @@ export const EXPERIENCE: Experience[] = [
       {
         name: "E-commerce Website",
         role: "Frontend Developer",
-        description: "Built and maintained the frontend for E-commerce website",
+        description: ["Built and maintained the frontend for E-commerce website"],
         technologies: ["Next.js", "Tailwind CSS", "Ant Design", "Styled Components"],
       },
       {
         name: "Product Customizer Mobile App",
         role: "Mobile Developer",
-        description: "Developed a cross-platform tablet application for customers to interactively customize product specifications.",
+        description: ["Developed a cross-platform tablet application for customers to interactively customize product specifications."],
         technologies: ["React Native"]
       },
       {
         name: "Dustland Crafting Station",
         role: "Frontend Developer (Web3)",
-        description: "Engineered a Web3 portal for item-to-NFT upgrades, managing wallet connectivity and smart contract interactions.",
+        description: ["Engineered a Web3 portal for item-to-NFT upgrades, managing wallet connectivity and smart contract interactions."],
         technologies: ["Next.js", "@emotion/styled", "ethers.js", "Metamask"],
       },
       {
         name: "Interior Design Service Platform",
         role: "Backend Developer",
-        description: "Architected a robust backend for handling 3D room scans, interior design proposals, and style identification algorithms.",
-        technologies: ["Golang", "PostgreSQL", "REST API"]
+        description: ["Architected a robust backend for handling 3D room scans, interior design proposals, and style identification algorithms."],
+        technologies: ["Golang", "PostgreSQL", "RESTful API"]
       }
     ]
   },
   {
     id: 2,
-    role: "Front-end Developer",
+    role: "Front-end Engineer",
     company: "Robert Bosch Engineering (RBVH)",
     duration: "Sep 2020 - May 2021",
     description: "Maintained an enterprise purchase requisition management website. Focused on frontend stability, bug resolution, and implementing global change requests using Angular 8 within a SharePoint environment."
@@ -137,14 +139,20 @@ export const EXPERIENCE: Experience[] = [
 ];
 
 export const SKILLS: Skill[] = [
-  { name: "React / Next.js", category: "Frontend" },
-  { name: "TypeScript", category: "Frontend" },
+  { name: "React", category: "Frontend" },
+  { name: "Next.js", category: "Frontend" },
+  { name: "Angular", category: "Frontend" },
   { name: "HTML", category: "Frontend" },
   { name: "CSS", category: "Frontend" },
+  { name: "React Native", category: "Frontend" },
+  { name: "Tailwind CSS", category: "Frontend" },
   { name: "Golang", category: "Backend" },
   { name: "PostgreSQL", category: "Backend" },
-  { name: "React Native", category: "Frontend" },
-  { name: "Web3 / Ethers.js", category: "Frontend" },
-  { name: "Tailwind CSS", category: "Frontend" },
-  { name: "Angular", category: "Frontend" },
+  { name: "Node.js", category: "Backend" },
+  { name: "RESTful API", category: "Backend" },
+  { name: "Python", category: "Programming Languages" },
+  { name: "JavaScript/TypeScript", category: "Programming Languages" },
+  { name: "Github", category: "Others" },
+  { name: "LangChain", category: "Others" },
+  { name: "LangSmith", category: "Others" },
 ];

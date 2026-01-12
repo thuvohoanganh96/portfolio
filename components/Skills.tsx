@@ -1,6 +1,6 @@
 import React from 'react';
 import { SKILLS } from '../constants';
-import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, Cell } from 'recharts';
+import { Briefcase } from 'lucide-react';
 
 const Skills: React.FC = () => {
     // Group skills by category for a cleaner view
@@ -9,11 +9,15 @@ const Skills: React.FC = () => {
     return (
         <section id="skills" className="py-20 bg-github-bg">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="text-3xl font-bold text-white mb-12">Technical Proficiency</h2>
-                
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                    
+                <div className="mb-12 flex flex-col items-center md:items-start">
+                    <h2 className="text-3xl font-bold text-white mb-4 flex items-center gap-3">
+                        <Briefcase className="text-blue-400" />
+                        Skills
+                    </h2>
+                    <div className="w-20 h-1 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full"></div>
+                </div>
 
+                <div className="grid grid-cols-1">
                     {/* Tags View */}
                     <div className="space-y-8">
                         {categories.map(category => (
