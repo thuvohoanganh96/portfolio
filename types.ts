@@ -15,6 +15,7 @@ export interface ExperienceProject {
   role: string;
   technologies: string[];
   link?: string;
+  team?: string;
 }
 
 export interface Experience {

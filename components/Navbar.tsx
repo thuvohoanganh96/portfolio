@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
   // Added Overview back as the landing/hero link is standard
   const navLinks = [
     { name: 'Overview', href: '#hero' },
-    { name: 'Projects', href: '#projects' },
+    { name: 'Education', href: '#education' },
     { name: 'Experience', href: '#experience' },
     { name: 'Skills', href: '#skills' },
   ];
@@ -21,9 +21,9 @@ const Navbar: React.FC = () => {
             {/* Avatar with hover zoom effect */}
             <div className="relative group z-50">
                 <img 
-                    src="https://avatars.githubusercontent.com/u/1?v=4" 
+                    src="assets/profile.png" 
                     alt="Profile" 
-                    className="w-8 h-8 rounded-full border border-github-border cursor-pointer transition-transform duration-300 ease-out group-hover:scale-[3.5] group-hover:translate-x-6 group-hover:translate-y-8 group-hover:shadow-2xl" 
+                    className="w-8 h-8 rounded-full border border-github-border cursor-pointer transition-transform duration-300 ease-out group-hover:scale-[8] group-hover:translate-x-20 group-hover:translate-y-28 group-hover:shadow-2xl" 
                 />
             </div>
             

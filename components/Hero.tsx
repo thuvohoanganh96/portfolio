@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
         
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-github-border bg-github-card/50 backdrop-blur-sm mb-8 animate-fade-in-up">
-           <div className="w-2 h-2 rounded-full bg-github-green animate-pulse"></div>
+           <div className="w-3 h-3 rounded-full bg-github-green animate-pulse"></div>
            <span className="text-sm font-medium text-github-text">Open for new opportunities</span>
         </div>
 
@@ -39,7 +39,6 @@ const Hero: React.FC = () => {
         <p className="mt-4 max-w-lg text-xl text-github-secondary mb-10">
           {USER_INFO.bio}
         </p>
-        
         {/* Code Snippet Decoration */}
         <div className="mt-20 w-full max-w-4xl bg-github-card border border-github-border rounded-lg shadow-2xl overflow-hidden transform rotate-1 hover:rotate-0 transition-transform duration-500">
             <div className="flex items-center px-4 py-2 border-b border-github-border bg-[#010336]">

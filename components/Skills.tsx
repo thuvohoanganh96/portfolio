@@ -9,7 +9,7 @@ const Skills: React.FC = () => {
     return (
         <section id="skills" className="py-20 bg-github-bg">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="mb-12 flex flex-col items-center md:items-start">
+                <div className="mb-12">
                     <h2 className="text-3xl font-bold text-white mb-4 flex items-center gap-3">
                         <Briefcase className="text-blue-400" />
                         Skills
