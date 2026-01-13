@@ -85,15 +85,15 @@ export const EXPERIENCE: Experience[] = [
         name: "AI Interviewer for Psychiatric History Taking (paper under review CHI'26)",
         role: "HCI Researcher, Full-stack Developer",
         team: "Supervised by Prof. Uichin Lee, collaborate with PhD student Yugyeong Jung",
-        description: ["In real clinical practice, interviews are constrained by limited time and the unpredictability of patient responses, making it difficult to secure essential information efficiently. We design a flexible psychiatric interviewer that dynamically adapts question flow and prioritizes clinically essential information within time constraints, with a clinical dashboard for efficient review.",
-          "The clinical agent follows a structured pipeline: evaluating patient responses, predicting potential mental health conditions, prioritizing subsequent questions, and adapting the interview flow in real time. The system was evaluated through a user study involving 20 clinicians, demonstrating its effectiveness in efficiently collecting critical psychiatric information."],
+        description: ["In real clinical practice, interviews are constrained by limited time and the unpredictability of patient responses, making it difficult to secure essential information efficiently. We design a flexible psychiatric interviewer that dynamically adapts question flow and prioritizes clinically essential information within time constraints.",
+          "The clinical agent follows a structured workflow: evaluating patient responses, predicting potential mental health conditions, prioritizing subsequent questions, and adapting the interview flow in real time. The system was evaluated through a user study involving 20 clinicians, demonstrating its effectiveness in efficiently collecting critical psychiatric information."],
         technologies: ["React", "Flask", "RESTful API", "MongoDB", "OpenAI API", "LangChain", "LangSmith"]
       },
       {
         name: "Memory-Augmented AI Journaling Mobile Application",
         role: "HCI Reseacher, Full-stack Developer",
         team: "Supervised by Prof. Uichin Lee, collaborate with PhD student Yugyeong Jung",
-        description: ['Developed a full-stack mobile application designed to support mental well-being through personalized emotional journaling. The system features a "reflective emotional memory" architecture that encodes user diary entries into contextual memory units and AI companion to help users interpret, revisit, and make sense of their emotions over time. The application was deployed for a 4-week in-the-wild user study with 50 participants.'],
+        description: ['Developed a full-stack mobile application designed to support mental well-being through personalized emotional journaling. The system features a "reflective emotional memory" architecture that encodes user diary entries into contextual memory units. Based on emotional memory, AI companion to help users interpret, revisit, and make sense of their emotions over time. The application was deployed for a 4-week in-the-wild user study with 50 participants.'],
         technologies: ["React Native", "Node.js", "RESTful API", "MongoDB", "OpenAI API"],
       }
     ]
