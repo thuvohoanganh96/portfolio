@@ -1,12 +1,12 @@
 import { Project, Experience, Skill } from './types';
 
 export const USER_INFO = {
-  first_name: "Thu (트)",
-  family_name: "Vo (버)",
+  first_name: "Thu",
+  family_name: "Vo",
   name: "Thu Vo",
   nationality: "Vietnamese 🇻🇳",
-  bio: "Full-stack engineer have an interest in integrating AI and building user-centered applications.",
-  location: "Daejeon, Korea",
+  bio: "Front-end engineer have an interest in integrating AI and building user-centered applications.",
+  location: "Tran Phu street, District 5, Ho Chi Minh",
   email: "thu.vohoanganh96@gmail.com",
   phone: "010 6579 2603"
 };
@@ -100,7 +100,7 @@ export const EXPERIENCE: Experience[] = [
   },
   {
     id: 1,
-    role: "Software Engineer",
+    role: "Front-end Engineer",
     company: "Arevo Vietnam",
     duration: "May 2021 - December 2024",
     description: "Developed and maintained full-stack solutions ranging from high-traffic e-commerce to Web3 and enterprise mobile applications.",
