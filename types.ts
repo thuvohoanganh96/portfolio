@@ -16,6 +16,7 @@ export interface ExperienceProject {
   technologies: string[];
   link?: string;
   team?: string;
+  video?: string;
 }
 
 export interface Experience {

@@ -2,11 +2,10 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Education from './components/Education';
-import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
 import ChatBot from './components/ChatBot';
-import Footer from './components/Footer';
+import PetProjects from './components/PetProjects';
 
 const App: React.FC = () => {
   return (
@@ -17,7 +16,7 @@ const App: React.FC = () => {
         <Education />
         <Experience />
         <Skills />
-        {/* <Projects /> */}
+        <PetProjects />
       </main>
     </div>
   );

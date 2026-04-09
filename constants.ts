@@ -110,12 +110,14 @@ export const EXPERIENCE: Experience[] = [
         role: "Frontend Developer",
         description: ["Built and maintained the frontend for E-commerce website"],
         technologies: ["Next.js", "Tailwind CSS", "Ant Design", "Styled Components"],
+        video: "https://youtu.be/oX7zoQZ4f3g"
       },
       {
         name: "Product Customizer Mobile App",
         role: "Mobile Developer",
         description: ["Developed a cross-platform tablet application for customers to interactively customize product specifications."],
-        technologies: ["React Native"]
+        technologies: ["React Native"],
+        video: "https://youtu.be/zRZpR2oOLNE"
       },
       {
         name: "Dustland Crafting Station",
