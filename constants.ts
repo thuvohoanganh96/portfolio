@@ -82,7 +82,7 @@ export const EXPERIENCE: Experience[] = [
     description: "Research on the design and application of an AI-powered system in the mental health domain",
     projects: [
       {
-        name: "AI Interviewer for Psychiatric History Taking (paper under review CHI'26)",
+        name: "AI Interviewer for Psychiatric History Taking (Published paper: https://ic.kaist.ac.kr/publications/papers/jung2026toward.pdf)",
         role: "HCI Researcher, Full-stack Developer",
         team: "Supervised by Prof. Uichin Lee, collaborate with PhD student Yugyeong Jung",
         description: ["In real clinical practice, interviews are constrained by limited time and the unpredictability of patient responses, making it difficult to secure essential information efficiently. We design a flexible psychiatric interviewer that dynamically adapts question flow and prioritizes clinically essential information within time constraints.",
